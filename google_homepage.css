@@ -6,11 +6,32 @@
     **/
     
 }
-/** commenting out nav bar
+
 .nav {
-    grid-area: 1 / 1 / span 1 / span 10;
+    position: fixed;
+    top: 0;
+    width: 98%;
+    padding: 10px;
 }
-**/
+
+.nav button {
+    padding: o.1%;
+    background-color: hsla(240, 75%, 50%, 0.7);
+    color: white;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 0.3%;
+}
+
 .logo {
     position: fixed;
     top: 20%;
@@ -52,10 +73,18 @@ input[type=submit] {
     font-size: 12pt; 
 }
 
-/** Commenting out footer
-
 .footer {
-    grid-area: 10 / 1 / span 1 / span 10;
-    background-color: lightgrey;
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+    padding: 10px;
+    background: rgba(1, 1, 1, 5%);
 }
-**/
+
+.right {
+    float: right;
+}
+
+.left {
+    float:left;
+}
